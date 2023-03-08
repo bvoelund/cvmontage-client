@@ -117,48 +117,6 @@ export default function Footer() {
             </div>
 
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium text-white">Links</p>
-
-              <nav aria-label="Footer Helpful Nav" className="mt-8">
-                <ul className="space-y-4 text-sm">
-                  <li>
-                    <Link
-                      className="text-white transition hover:text-white/75"
-                      href="/"
-                    >
-                      FAQs
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link
-                      className="text-white transition hover:text-white/75"
-                      href="/"
-                    >
-                      Support
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link
-                      className="group flex justify-center gap-1.5 sm:justify-start"
-                      href="/"
-                    >
-                      <span className="text-white transition group-hover:text-white/75">
-                        Live Chat
-                      </span>
-
-                      <span className="relative flex h-2 w-2">
-                        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"></span>
-                        <span className="relative inline-flex h-2 w-2 rounded-full bg-teal-500"></span>
-                      </span>
-                    </Link>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-
-            <div className="text-center sm:text-left">
               <p className="text-lg font-medium text-white">Kontakt</p>
 
               <ul className="mt-8 space-y-4 text-sm">

@@ -8,14 +8,14 @@ type Reference = {
   referenceLink: string;
 };
 
-type Props = {
+export type CardType = {
   icon: string | ReactNode;
   title: string;
   text: string;
   reference?: Reference;
 };
 
-export default function Card({ icon, title, text, reference }: Props) {
+export default function Card({ icon, title, text, reference }: CardType) {
   return (
     <div className="bg-white shadow-2xl w-full rounded-3xl p-8 space-y-8 flex flex-col z-10">
       <div className="flex justify-start items-center border-b-2 pb-4 ">
