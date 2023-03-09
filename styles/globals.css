@@ -40,6 +40,10 @@ a {
   @apply w-2 bg-gray-100;
 }
 
+/* ::-webkit-scrollbar-track {
+  @apply w-2 bg-gray-200;
+} */
+
 ::-webkit-scrollbar-thumb {
   @apply rounded-3xl bg-primary bg-opacity-60;
 }
